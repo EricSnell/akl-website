@@ -33,6 +33,12 @@ main {
   margin-bottom: 9rem;
 }
 
+@media (max-width: 1000px) {
+  main {
+    margin-bottom: 5rem;
+  }
+}
+
 .flip-horizontally {
   transform: scaleX(-1);
 }
@@ -67,6 +73,12 @@ main {
   max-width: 1300px;
   margin: 0 auto;
   padding: 8rem 0;
+}
+
+@media (max-width: 1000px) {
+  .section__inner {
+    padding: 4rem 0;
+  }
 }
 
 .bg-grey {
@@ -151,6 +163,12 @@ main {
 
 .header {
   margin-bottom: 9rem;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    margin-bottom: 5rem;
+  }
 }
 
 .header__inner {
@@ -260,6 +278,12 @@ main {
   background-color: white;
   border-radius: 10px;
   overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .service-card {
+    margin-bottom: 1rem;
+  }
 }
 
 .service-card__img-container {
