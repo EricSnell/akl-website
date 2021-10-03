@@ -25,10 +25,6 @@ a:hover {
   text-decoration: none;
 }
 
-body {
-  padding-top: 2rem;
-}
-
 main {
   margin-bottom: 9rem;
 }
@@ -63,6 +59,16 @@ main {
 
 .shadow {
   box-shadow: 0 5px 60px 0 rgba(40,40,40,.1)
+}
+
+.site__banner {
+  text-align: center;
+  border: 1px solid;
+  font-size: 1.6rem;
+  background-color: #0e768f;
+  color: #fff;
+  font-weight: 800;
+  padding: 1rem 0;
 }
 
 .section {
