@@ -316,24 +316,48 @@ main {
   color: #fff;
 }
 
-.footer__contact {
-
-}
-
-.footer__socials {
-
-}
-
-.footer__naic-codes {
+.footer__inner {
   font-size: 1.8rem;
-  text-align: center;
+  text-align: left;
   margin: 0 auto 5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.footer__naic-codes h3 {
+.footer__inner h3 {
   font-size: 2rem;
   text-align: center;
   font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.footer__inner a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__inner hr {
+  background-color: #fff;
+  margin: 3rem 0;
+}
+
+.footer__inner a:hover {
+  color: #ccc;
+}
+
+.footer__inner img {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.footer__naiccodes {
+  width: 390px;
+  margin-bottom: 5rem;
+}
+
+.footer__contact {
+  width: 390px;
 }
 
 .footer__copyright {
@@ -345,15 +369,4 @@ main {
 /* Bootstrap Carousel overrides */
 .carousel-inner{
   max-height: 800px;
-}
-
-
-
-.carousel-caption{
-  color: white;
-  top: 30px;
-}
-
-.carousel-text {
-  font-size: 5rem;
 }
