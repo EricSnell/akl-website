@@ -66,7 +66,7 @@ main {
 .section__inner {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 9rem 0;
+  padding: 8rem 0;
 }
 
 .bg-grey {
@@ -147,6 +147,10 @@ main {
     margin-left: 0;
     font-size: 1.8rem;
   }
+}
+
+.header {
+  margin-bottom: 9rem;
 }
 
 .header__inner {
